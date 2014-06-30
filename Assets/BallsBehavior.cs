@@ -75,8 +75,8 @@ public class BallsBehavior : MonoBehaviour {
 		Vector3 v1 = rigidbody.velocity;
 		Vector3 v2 = contact.otherCollider.attachedRigidbody.velocity;
 		
-		Vector3 w1 = rigidbody.angularVelocity;
-		Vector3 w2 = contact.otherCollider.attachedRigidbody.angularVelocity;
+		//Vector3 w1 = rigidbody.angularVelocity;
+		//Vector3 w2 = contact.otherCollider.attachedRigidbody.angularVelocity;
 		
 		Vector3 vRel = v2 - v1;
 		float vReln = Vector3.Dot(vRel,n);
@@ -100,7 +100,7 @@ public class BallsBehavior : MonoBehaviour {
 		Vector3 v1 = rigidbody.velocity;
 		// Vector3 v2 = contact.otherCollider.attachedRigidbody.velocity;
 		
-		Vector3 w1 = rigidbody.angularVelocity;
+		//Vector3 w1 = rigidbody.angularVelocity;
 		//Vector3 w2 = contact.otherCollider.attachedRigidbody.angularVelocity;
 
 		Vector3 vRel = v2 - v1;
